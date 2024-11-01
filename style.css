@@ -1,0 +1,452 @@
+*{
+    box-sizing: border-box;
+    font-family:sans-serif;
+    margin: 0%;
+    padding: 0%;
+    color: white;
+}
+html, body{
+    height: 100%;
+    width: 100%;}
+    .main{
+      height: 50vw;
+      width: 100vw;
+      background-image:url("/keagan-henman-IcQVRR-nWbI-unsplash.jpg") ;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+    
+    
+    }
+    .nav{
+        display: flex;
+        align-items:center ;
+        justify-content: space-between;
+        padding: 2vw 5vw;
+        
+    }
+    .nav i{
+        display: none;
+    }
+    
+    .nav2{
+        display: flex;
+        gap: 3vw;
+        align-items: center;
+        font-size: 1.2vw;
+    }
+    .nav2 :hover{
+        border-bottom: .3vw solid;
+    }
+    .hero-text{
+     height: 30vw;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     font-weight: 600;
+     }
+
+.hero-text h1 {
+  font-size: 4vw;
+    }
+.hero-text span{
+    font-size: 2vw;
+}
+
+
+.content{
+    height: 30vw;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+ 
+   
+}
+.left{
+    background-color: rgba(240, 255, 255, 0.712);
+   height: 80%;
+   width: 48%;
+    margin:20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.info{
+    color: black;
+   margin-left: 2vw;
+   margin-top: 4vw;
+    height: 30vh;
+    width: 25vw;
+    
+}
+.info h4 {
+    color: black;
+  margin-bottom: 25px;
+  font-size: 1.2vw;
+}
+
+
+
+.image{
+    height:60% ;
+    width: 35%;
+   border-radius: 5px;
+   border-color: bisque;
+   margin-top: 3vw;
+   
+}
+
+.right{
+    height: 80%;
+    width: 48%;
+     background-color: rgba(240, 255, 255, 0.712);
+     margin:20px
+ }
+ .right h1{
+    color: black;
+    margin-top: 30px;
+    margin-left: 10px;
+ }
+
+
+ .right p {
+    margin-top: 2vw;
+    color: rgba(0, 0, 0, 0.61);
+    font-size: 2vw;
+    font-weight:300 ;
+    margin-left: 1vw;
+    
+ }
+.experince {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  rgba(240, 255, 255, 0.712);
+    flex-wrap: wrap;
+}
+ li {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+ 
+ ul{
+    color: black;
+ }
+ .position{
+    font-size: 1.2vw;
+    color: black;
+    font-weight: 600;
+    border: 1vw solid black;
+    border-radius: 5px;
+    flex-wrap: wrap;
+ }
+ .experince-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 3vw;
+    font-weight: 800;
+    width: 100%;
+ }
+.form{
+    background-image: url("/gradient-colorful-abstract-background-modern-design_677411-1552.avif");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vw;
+    width: 100%;
+    border-radius: 5px;
+}
+.form-element{
+    height: 20vw;
+    width:80%;
+    background-color: white;
+    color: black;
+   
+    border-radius: 5px;
+   
+}
+.email{
+    
+    border-radius: 5px;
+    height: 2vw;
+    width: 30%;
+    margin-bottom: 2vw;
+    margin-left: 35%;
+    color: black;
+    font-weight: 600;
+}
+.massage{
+    border-radius: 5px;
+    height: 4vw;
+    width: 30%;
+    margin-bottom: 2vw;
+    margin-left: 35%;
+    color: black;
+    font-weight: 600;
+}
+.name{
+    border-radius: 5px;
+    height: 2vw;
+    width: 30%;
+    margin-bottom: 2vw;
+    margin-left: 35%;
+    margin-top: 1vw;
+    color: black;
+    font-weight: 600;
+}
+.button{
+    border-radius: 2vw;
+    height: 3vw;
+    width: 15%;
+    margin-bottom: 1vw;
+    margin-left: 35%;
+    margin-top: -1vw;
+    background-color: #02218B;
+    display: flex;
+  
+}
+.touch{
+    width: 100%;
+    height: 15vh;
+   background-color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1vw;
+}
+.touch h1{
+    color: #02218B;
+    font-weight: 500;
+    font-size: 2vw;
+    border: 1vw solid black;
+    
+}
+.icon-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3vh;
+    background-color: #02218B;
+}
+
+
+
+
+
+
+@media (max-width:600px){
+    .nav h1{
+        font-size: 2vw;
+    }
+ 
+   .nav2{
+    display: none;
+   }
+   .nav i {
+    font-size: 2vw;
+    display: block;
+}
+.hero-text h1 {
+    font-size: 3vw;
+    margin-top: 20px;
+      }
+  .hero-text span{
+      font-size: 1.5vw;
+      margin-bottom: 15px;
+}
+
+
+
+
+
+}
+@media (max-width:850px){
+    .experince-h1{
+        margin-top: 60px;
+    }
+}
+@media (max-width:990px){
+    .right p {
+    font-size: 1vw;
+}
+.right h1{
+    font-size: 2vw;
+    margin-top: 10px;
+    left: 50%;
+}
+.right{
+    width: 50%;
+    height: 50%;
+}
+}
+
+@media (max-width:700px){
+    .content{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    height: 65%;
+    }
+    .info{
+      height: fit-content;
+    }
+    .info h4 {
+     margin-left: 30%;
+      margin-bottom: 10px;
+      font-size: 1.2vw;
+    }
+    .image{
+        height:90% ;
+        width: 20%;
+        margin-left: 20%;
+       margin-top: .7vw;
+       
+}
+.right p {
+    font-size: 1.5vw;
+    height: 50px;
+}
+.right h1{
+    font-size: 2vw;
+    margin-top: 10px;
+    left: 50%;
+}
+.right{
+    width: 100%;
+    height: 70%;
+
+}
+.experince {
+    height: 50vh;
+    width: 100%;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+ li {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1vw;
+    
+font-weight: 600;
+justify-content: flex-start;
+}
+ 
+ ul{
+    color: black;
+    margin-top: 10px;
+ }
+ .position{
+    flex-direction: column;
+    font-size: 1.5vw;
+    color: black;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+ }
+ .experince-h1 {
+   
+    
+    font-size: 2vw;
+    font-weight: 800;
+    width: 100%;
+    margin-top:100px;
+ }
+
+
+
+
+ .form{
+   
+    height: 30vw;
+    width: 100%;
+    border-radius: 5px;
+}
+.form-element{
+    height: 20vw;
+    width:70%; 
+}
+.email{
+    font-size: small;
+    border-radius: 5px;
+    height: 15px;
+    width: 30%;
+    margin-bottom: 2vw;
+    margin-left: 35%;
+    color: black;
+}
+.massage{
+    font-size: small;
+    height: 3vw;
+    width: 30%;
+  
+}
+.name{
+    border-radius: 5px;
+    height: 15px;
+    width: 30%;
+    margin-bottom: 1vw;
+    margin-left: 35%;
+    margin-top: 1vw;
+    font-size: small;
+}
+.button{
+    border-radius: 1vw;
+    height: 2vw;
+    width: 10%;
+    margin-bottom: 1vw;
+    margin-left: 35%;
+    margin-top: -1vw;
+    background-color: #02218B;
+    font-size: smaller;
+    width: 50px;
+    height: 20px;
+   
+
+}
+.touch{
+    width: 100%;
+    height: 10vh;
+
+}
+.touch h1{
+    color: #02218B;
+    font-weight: 500;
+    font-size: 1.5vw;
+    border: 1vw solid black;
+    
+}
+.icon-container{
+   
+    height: 2vh;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
